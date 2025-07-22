@@ -1,0 +1,8 @@
+{
+  "printWidth": 100,
+  "tabWidth": 2,
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "semi": true,
+  "plugins": ["@shopify/prettier-plugin-liquid"]
+}

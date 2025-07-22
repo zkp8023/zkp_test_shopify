@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "Shopify.theme-check-vscode",
+    "neilding.language-liquid",
+    "killalau.vscode-liquid-snippets"
+  ]
+}

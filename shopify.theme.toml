@@ -1,2 +1,4 @@
 [environments.develop]
 store = "zhangkaipeng"
+port = 8080
+theme-editor-sync = true

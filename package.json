@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "dotenvx run -- node scripts/start.js",
+    "dev": "shopify theme dev -e develop",
     "check": "shopify theme check",
     "logout": "shopify auth logout",
     "format": "prettier --check ."

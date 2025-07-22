@@ -6,5 +6,10 @@
   "emmet.includeLanguages": {
     "liquid": "html"
   },
-  "liquid.engine": "shopify"
+  "liquid.engine": "shopify",
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "package.json": "package-lock.json,pnpm-lock.yaml,shopify.theme.toml",
+    ".gitignore": ".shopifyignore"
+  },
 }

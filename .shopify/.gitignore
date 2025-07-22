@@ -1,5 +1,0 @@
-# Ignore the entire .shopify directory
-.vscode/*
-package.json
-pnpm-lock.yaml
-shopify.theme.toml

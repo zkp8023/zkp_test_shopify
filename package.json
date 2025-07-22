@@ -22,8 +22,5 @@
     "@shopify/cli": "latest",
     "@shopify/prettier-plugin-liquid": "^1.9.3",
     "prettier": "^3.6.2"
-  },
-  "dependencies": {
-    "@dotenvx/dotenvx": "^1.48.3"
   }
 }

@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "shopify theme dev -e develop",
     "check": "shopify theme check",
+    "pull": "shopify theme pull",
+    "push": "shopify theme push",
     "logout": "shopify auth logout",
     "format": "prettier --check ."
   },
@@ -17,7 +19,7 @@
     "node": ">=20.10.0"
   },
   "devDependencies": {
-    "@shopify/cli": "^3.82.1",
+    "@shopify/cli": "latest",
     "@shopify/prettier-plugin-liquid": "^1.9.3",
     "prettier": "^3.6.2"
   },

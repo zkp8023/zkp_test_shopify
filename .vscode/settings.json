@@ -1,0 +1,10 @@
+{
+  "liquid.format.enable": true,
+  "files.associations": {
+    "*.liquid": "liquid"
+  },
+  "emmet.includeLanguages": {
+    "liquid": "html"
+  },
+  "liquid.engine": "shopify"
+}

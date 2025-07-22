@@ -1,0 +1,7 @@
+*.log
+.vscode/*
+node_modules/
+.gitignore
+shopify.theme.toml
+package.json
+.shopify/**/*

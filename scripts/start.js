@@ -1,4 +1,3 @@
-// const { execSync } = require('child_process');
 import { execSync } from 'child_process'
 const store = process.env.STORE_NAME;
 console.log('🚀  store', store)

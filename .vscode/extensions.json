@@ -3,6 +3,7 @@
     "esbenp.prettier-vscode",
     "Shopify.theme-check-vscode",
     "neilding.language-liquid",
-    "killalau.vscode-liquid-snippets"
+    "killalau.vscode-liquid-snippets",
+    "tamasfe.even-better-toml"
   ]
 }

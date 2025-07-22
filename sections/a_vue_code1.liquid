@@ -1,0 +1,30 @@
+{% liquid
+  assign settings = section.settings
+%}
+<div
+  id="app"
+  data-text="{{ settings.vue_settings_text }}"
+  data-product="{{ product | json }}"
+></div>
+<a href="/account" data-drawer-options='{ "id":"#t4s-login-slidbar" }'>
+  <button>点击</button>
+</a>
+
+<script type="module" src="{{ 'vite-counter.js' | asset_url }}" defer></script>
+{% schema %}
+{
+  "name": "vuetest",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "vuetest"
+    },
+    {
+      "type": "text",
+      "id": "vue_settings_text",
+      "label": "Count"
+    }
+  ]
+}
+{% endschema %}

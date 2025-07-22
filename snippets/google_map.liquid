@@ -1,0 +1,21 @@
+{%- liquid
+  assign iframe_src = 'https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d207.1252059888649!2d-117.97581878679163!3d33.83802563832163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1734632437951!5m2!1sen!2sus'
+-%}
+
+<iframe
+  src="{{ iframe_src }}"
+  width="100%"
+  height="100%"
+  style="border:0;"
+  allowfullscreen="true"
+  loading="lazy"
+  class="google_map_frame"
+  referrerpolicy="no-referrer-when-downgrade"
+></iframe>
+
+{%- style -%}
+  .google_map_frame {
+    height: 100%;
+    min-height: 300px;
+  }
+{%- endstyle -%}
